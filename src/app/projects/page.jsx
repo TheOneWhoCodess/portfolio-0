@@ -208,7 +208,7 @@ function Projects() {
 									/>
 								</Link>
 								<Link
-									href="https://portfolio-eta-bay-86.vercel.app"
+									href="https://dev-raushanportfolio.vercel.app/"
 									target="_blank"
 									className="cursor-pointer"
 								>
@@ -252,7 +252,7 @@ function Projects() {
 				/>
 			</Link>
 			<Link
-				href="https://novamind-ui.vercel.app"
+				href="https://novamind-326.vercel.app/"
 				target="_blank"
 				className="cursor-pointer"
 			>
