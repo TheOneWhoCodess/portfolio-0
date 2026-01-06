@@ -14,7 +14,7 @@ export default function App() {
 	// 	window.history.scrollRestoration = "manual";
 	// }, []);
 	return (
-		<div className="min-h-screen bg-zinc-900 text-gray-200 scroll-smooth ">
+		<div className="min-h-screen bg-[#111014] text-gray-200 scroll-smooth ">
 			<Header />
 			<Home />
 			<About />

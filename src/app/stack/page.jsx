@@ -71,7 +71,8 @@ function Stack() {
       }
     );
 
-    const logos = document.querySelectorAll(".logo");
+    // ✅ scope to this section only
+    const logos = stackRef.current?.querySelectorAll(".logo") ?? [];
 
     const onLogoEnter = (e) => {
       gsap.to(e.currentTarget, {
@@ -151,8 +152,8 @@ function Stack() {
   );
 
   return (
-    <section ref={stackRef} id="stacks" className="pb-28 max-w-5xl m-auto">
-      <main className="p-5 mb-10 md:w-4/5 md:m-auto lg:my-12">
+    <section ref={stackRef} id="stacks" className="bg-background py-20 md:py-28">
+      <div className="p-5 md:w-4/5 m-auto max-w-5xl">
         <h2 className="stack-title text-xl my-8 text-emerald-400 font-semibold md:text-3xl sm:text-center xl:text-5xl">
           My Stack
         </h2>
@@ -166,7 +167,7 @@ function Stack() {
           Data (Analyst & AI)
         </h3>
         <IconGrid items={dataAnalystAI} />
-      </main>
+      </div>
     </section>
   );
 }

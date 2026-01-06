@@ -7,7 +7,7 @@ function Contact() {
 	return (
 		<section
 			id="contact"
-			className="contact-section my-10  lg:my-15 lg:mb-24 py-20"
+			className="bg-background  contact-section my-10  lg:my-15 lg:mb-24 py-20"
 		>
 			<main className="p-5  md:grid grid-cols-10 justify-center items-center gap-5 lg:w-4/5 lg:m-auto lg:text-2xl">
 				<h2 className="contact-title text-xl font-semibold text-emerald-400 my-5 md:text-3xl text-center md:col-span-10 xl:text-5xl lg:my-10">

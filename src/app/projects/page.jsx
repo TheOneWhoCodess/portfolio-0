@@ -72,7 +72,7 @@ function Projects() {
 	);
 
 	return (
-		<section id="projects" className="py-20 md:py-24">
+		<section id="projects" className="bg-background py-20 md:py-24">
 			<main ref={projectRef} className="p-5 md:m-auto lg:w-4/5">
 				<h2 className="project-title text-xl font-semibold text-emerald-400 my-8 md:text-3xl md:text-center xl:text-5xl lg:my-10">
 					Projects
@@ -198,7 +198,7 @@ function Projects() {
 							<div className="flex justify-start items-center gap-2">
 								<h3 className="text-base font-bold lg:text-lg">Portfolio</h3>
 								<Link
-									href="https://github.com/TheOneWhoCodess/portfolio"
+									href="https://github.com/TheOneWhoCodess/portfolio-0.git"
 									target="_blank"
 									className="cursor-pointer"
 								>
@@ -227,51 +227,53 @@ function Projects() {
 						</div>
 					</div>
 
-					{/* 4 - Flashcard */}
 					<div
-						id="4"
-						className="project-card flex flex-col h-full shadow-md shadow-gray-500/30 hover:shadow-emerald-500/30 rounded-b-lg hover:scale-105 ease-in-out duration-300"
-					>
-						<Image
-							src="/flashcard.png"
-							alt="flashcard website"
-							width={500}
-							height={500}
-							className="m-auto rounded-t-lg w-full"
-						/>
-						<div className="p-3 flex flex-1 flex-col justify-between items-start gap-3 rounded-b-lg min-h-40">
-							<div className="flex justify-start items-center gap-2">
-								<h3 className="text-base font-bold lg:text-lg">Flashcard</h3>
-								<Link
-									href="https://github.com/mkhantk/flashcard"
-									target="_blank"
-									className="cursor-pointer"
-								>
-									<SiGithub
-										className="text-gray-200 hover:text-emerald-400"
-										size={20}
-									/>
-								</Link>
-								<Link
-									href="https://flashcard-rose-sigma.vercel.app"
-									target="_blank"
-									className="cursor-pointer"
-								>
-									<ExternalLinkIcon />
-								</Link>
-							</div>
-							<p className="text-sm lg:text-base">
-								Challenge your vocabulary knowledge. Built with React,
-								Tailwindcss and Vite. Used Merriam Webster API and a wordlist
-								from SCOWL.
-							</p>
-							<div className="flex gap-5">
-								<SiReact color="default" />
-								<SiTailwindcss color="default" />
-								<SiVite color="default" />
-							</div>
-						</div>
-					</div>
+	id="4"
+	className="project-card flex flex-col h-full shadow-md shadow-gray-500/30 hover:shadow-violet-500/30 rounded-b-lg hover:scale-105 ease-in-out duration-300"
+>
+	<Image
+		src="/novamind.png"
+		alt="Novamind AI Chat UI"
+		width={500}
+		height={500}
+		className="m-auto rounded-t-lg w-full"
+	/>
+	<div className="p-3 flex flex-1 flex-col justify-between items-start gap-3 rounded-b-lg min-h-40">
+		<div className="flex justify-start items-center gap-2">
+			<h3 className="text-base font-bold lg:text-lg">Novamind</h3>
+			<Link
+				href="https://github.com/your-username/novamind-ui"
+				target="_blank"
+				className="cursor-pointer"
+			>
+				<SiGithub
+					className="text-gray-200 hover:text-violet-400"
+					size={20}
+				/>
+			</Link>
+			<Link
+				href="https://novamind-ui.vercel.app"
+				target="_blank"
+				className="cursor-pointer"
+			>
+				<ExternalLinkIcon />
+			</Link>
+		</div>
+
+		<p className="text-sm lg:text-base">
+			A modern, dark-themed AI chat application UI focused on clean design,
+			strong visual hierarchy, and an intuitive user experience. Frontend-only
+			project showcasing modern SaaS-style layouts.
+		</p>
+
+		<div className="flex gap-5">
+			<SiReact />
+			<SiTailwindcss />
+			<SiVite />
+		</div>
+	</div>
+</div>
+
 
 					{/* 5 - Ecom */}
 					

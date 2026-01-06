@@ -36,7 +36,13 @@ const EducationAndCertifications = () => {
 	}, []);
 
 	return (
-		<div id="education" className="p-5 md:w-4/5 m-auto py-20 md:py-28">
+<div
+  id="education"
+ className="bg-background py-20 md:py-28">
+
+            
+
+
 			<h1 className="activity-title text-xl font-semibold text-emerald-400 my-8 md:text-3xl md:text-center xl:text-5xl lg:my-10">
 				Education & Certifications
 			</h1>
