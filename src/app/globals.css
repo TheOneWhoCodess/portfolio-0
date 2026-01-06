@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --animate-wave: wave 1.5s ease-in-out infinite;
+  @keyframes wave {
+    0%,
+    15% {
+      transform: rotate(14deg);
+    }
+    30% {
+      transform: rotate(-8deg);
+    }
+    40% {
+      transform: rotate(14deg);
+    }
+    50% {
+      transform: rotate(-4deg);
+    }
+    60% {
+      transform: rotate(10deg);
+    }
+    70% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  --animate-slide-out-right: slide-out-right 1.5s;
+  @keyframes slide-out-right {
+    0% {
+      transform: "translate3d(0, 0, 0)";
+    }
+    100% {
+      visibility: "hidden";
+      transform: "translate3d(100%, 0, 0)";
+    }
+  }
+}
+

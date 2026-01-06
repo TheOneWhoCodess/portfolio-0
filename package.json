@@ -1,0 +1,41 @@
+{
+  "name": "min-khant-kyaw-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@icons-pack/react-simple-icons": "^13.7.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.561.0",
+    "next": "^15.5.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.8",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4"
+  },
+  "description": "A minimal and responsive portfolio website built with **Next.js**, **React**, and **TailwindCSS**.  \r Designed to showcase my projects, skills, and contact information in a clean, aesthetic layout.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhantk/min-khant-kyaw-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhantk/min-khant-kyaw-portfolio/issues"
+  },
+  "homepage": "https://github.com/mkhantk/min-khant-kyaw-portfolio#readme"
+}
