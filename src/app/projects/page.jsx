@@ -242,7 +242,7 @@ function Projects() {
 		<div className="flex justify-start items-center gap-2">
 			<h3 className="text-base font-bold lg:text-lg">Novamind</h3>
 			<Link
-				href="https://github.com/your-username/novamind-ui"
+				href="https://github.com/TheOneWhoCodess/Novamind"
 				target="_blank"
 				className="cursor-pointer"
 			>
